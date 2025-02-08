@@ -32,6 +32,49 @@ body {
 
 .gridBox {
     flex: 1;
-    border: 3px solid black;
+    border: 3px solid #2e2e43 ;
 }
 
+.boxFilled {
+    background-color: #4a4b5b
+}
+
+.changeGridSize {
+    display: flex;
+    gap: 20px;
+}
+
+.changeGridSizeInput {
+    background-color: #2e2e43;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid #fcfbf3;
+    color: #a9bcbf;
+    width: 30px;
+    text-align: center;
+}
+
+.changeGridSizeButton {
+    background-color: #aaeeea;
+    color: #4a4b5b;
+    border: 1px solid #7fbbdc;
+    border-radius: 5px;   
+}
+
+button.changeGridSizeButton:active {
+    background-color: #7fbbdc;
+}
+
+button.changeGridSizeButton:hover {
+    cursor: pointer;
+}
+
+.changeGridSizeButon:active {
+    background-color: #7fbbdc;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #fcfbf3; 
+}
